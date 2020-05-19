@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Sriracha&display=swap');
+
+body{
+    background-image: radial-gradient( circle farthest-corner at -3.1% -4.3%,  rgb(89, 247, 191) 0%, rgba(21,38,82,1) 90% );
+    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h1{
+    text-align: center;
+    color: whitesmoke;
+    font-family: helvetica;
+    font-weight: bolder;
+    font-size: 50px;
+
+}
+
+h3{
+    background-color: rgba(21,38,82,1)50%;
+    border-radius:15px;
+    height:50px;
+    width:100%;
+    margin: 20px;
+    color: whitesmoke;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+
+.add-a-task-button{
+    background-color:rgb(230, 210, 33) ;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    
+}
+
+.add-a-task-button:hover{
+    background-color: slateblue;
+}
+
+
+.add-a-task-input-form{
+    background-color:whitesmoke;
+    font-family: 'Sriracha';
+}
+
+
+.done-button{
+    background-color: rgb(98, 201, 128);
+    margin-bottom: 20px;
+}
+
+.done-button:hover{
+    background-color: green;
+}
+
+.delete-button{
+    background-color: rgb(209, 81, 49); 
+    margin-bottom: 20px;
+}
+
+.delete-button:hover{
+    background-color: red;
+}
+
+.post-it{
+    background-color: rgb(225, 243, 65);
+    width: 220px;
+    height:200px;
+    font-size:100%;
+    font-weight:normal;
+    color: rgb(24, 24, 24);
+    border-radius: 5px;
+    box-shadow: 10px 10px 5px black;
+    font-family: 'Sriracha';
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.post-it:hover{
+    transform: scale(1.2);
+}
+
+p{
+    text-align: center;
+}
